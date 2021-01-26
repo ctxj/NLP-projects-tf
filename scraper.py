@@ -8,7 +8,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 #Download and direct chrome driver
-PATH = "C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe"
+PATH = "C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe" #Path to chromedriver
 driver = webdriver.Chrome(PATH)
 
 #Ticker for stock news to scrape
