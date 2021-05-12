@@ -7,7 +7,7 @@
 import concurrent.futures
 import pandas as pd
 import numpy as np
-import yfinance as yf #Yahoo fiance wrapper
+import yfinance as yf #Yahoo Finance wrapper
 from tqdm.auto import tqdm
 
 #Load headline data

@@ -43,7 +43,7 @@ def processing(hl_file, data_file, file_name):
     # df_data['Labels'] = df_data['Adj Close'].apply(catergorical_labeler)
     # df_data.Labels.astype(np.int)
 
-    #Similar function(catergorical_labeler) to the one above, vectorized to speed up function
+    #Similar function(catergorical_labeler) to the one above, vectorised to speed up function
     #Map labels 0, 1, 2 based on closing price percentage change
     df_data['Labels'] = np.where(df_data['Adj Close'] < -0.02, 0,
                             np.where((df_data['Adj Close'] >= -0.02) & (df_data['Adj Close'] <= 0.02), 1, 2))
@@ -60,7 +60,7 @@ def processing(hl_file, data_file, file_name):
     df = df.sort_index(ascending=False)
 
     #Save dataframe into csv
-    df.to_csv(f"processed_{file_name}_catergorical.csv", index=False)
+    df.to_csv(f"processed_{file_name}_categorical.csv", index=False)
 
 #Execute function
 processing(hl_file=hl, data_file=data, file_name='FB')

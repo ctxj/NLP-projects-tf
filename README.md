@@ -9,11 +9,11 @@ Python 3.8.6
 [Google Chrome driver](https://chromedriver.chromium.org/downloads)
 
 ## Data
-[Facebook's historical price data](https://github.com/ctxj/NLP-projects-tf/blob/main/FB.csv) From Yahoo finance  
+[Facebook's historical price data](https://github.com/ctxj/NLP-projects-tf/blob/main/FB.csv) From Yahoo Finance  
 [Web scraper for headline news](https://github.com/ctxj/NLP-projects-tf/blob/main/scraper.py)  
 [Processed news headlines](https://github.com/ctxj/NLP-projects-tf/blob/main/data_processor_catergorical.py) - [data](https://github.com/ctxj/NLP-projects-tf/blob/main/processed_FB_catergorical.csv)  
-[1 million finance news headlines](https://www.kaggle.com/miguelaenlle/massive-stock-news-analysis-db-for-nlpbacktests?select=analyst_ratings_processed.csv) From kaggle  
-[Precessed news headlines(large)](https://github.com/ctxj/NLP-projects-tf/blob/main/headline_processor.py)
+[1 million finance news headlines](https://www.kaggle.com/miguelaenlle/massive-stock-news-analysis-db-for-nlpbacktests?select=analyst_ratings_processed.csv) From Kaggle  
+[Processed news headlines (large)](https://github.com/ctxj/NLP-projects-tf/blob/main/headline_processor.py)
 
 ## Models
 [BiLSTM (trained on large dataset)](https://github.com/ctxj/NLP-projects-tf/blob/main/NLP_BiLSTM_colab.ipynb) - 60% accuracy  
